@@ -64,8 +64,8 @@ function App(): JSX.Element {
 
   useEffect(() => {
     const env = new CustomerIOEnv()
-    env.siteId = "1a8e9757fd8aad69f3ff"
-    env.apiKey = "c58d31f9ece3acbc3a8b"
+    env.siteId = "siteid"
+    env.apiKey = "api key"
     
     // Region is optional, defaults to Region.US.
     // Use Region.EU for EU-based workspaces.

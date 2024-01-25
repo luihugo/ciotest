@@ -16,7 +16,7 @@ public class MyAppPushNotificationsHandler : NSObject {
     // Remember to modify the siteId and apiKey with your own values.
     // let siteId = "YOUR SITE ID HERE"
     // let apiKey = "YOUR API KEY HERE"
-    CustomerIO.initialize(siteId: "1a8e9757fd8aad69f3ff", apiKey: "c58d31f9ece3acbc3a8b", region: Region.US) { config in
+    CustomerIO.initialize(siteId: "siteid", apiKey: "apikey", region: Region.US) { config in
       config.autoTrackDeviceAttributes = true
     }
 
